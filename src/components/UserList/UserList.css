@@ -1,0 +1,31 @@
+.user-row-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 16px;
+  justify-content: center;
+}
+
+
+.user-card {
+  width: 200px; 
+  height: 40px; 
+  padding: 16px;
+  background-color: #add8f5;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+}
+
+
+.user-card.hover {
+  background-color: #bae6fd;
+  border-color: #0369a1;
+  transform: scale(1.05);
+}
+
+.user-name {
+  margin: 0;
+}
