@@ -24,8 +24,8 @@ Username: admin
 Password: admin123
 
 Users:
-user1 / user123
-user2 / user234
+user1 / user1@2025 or user123
+user2 / user2@2025 or user234
 
 Features
 
