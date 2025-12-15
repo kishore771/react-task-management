@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+Role-Based Task Management Application (React)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project Overview
 
-## Available Scripts
+This project is a simple role-based task management application built with React.
+Admins can create, assign, and reassign tasks using drag-and-drop, while users can
+view their assigned tasks and mark them as completed. All data is stored in localStorage,
+so no backend server is required.
 
-In the project directory, you can run:
+Tech Stack
+- React 18
+- React Router DOM
+- React Context API
+- React DnD
+- UUID
+- CSS (Flexbox & Grid)
+- localStorage
 
-### `npm start`
+Login Credentials
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Admin:
+Username: admin
+Password: admin123
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Users:
+user1 / user123
+user2 / user234
 
-### `npm test`
+Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Admin:
+- Create and assign tasks
+- Reassign tasks using drag-and-drop
+- View users in rows
+- Logout
 
-### `npm run build`
+User:
+- View assigned tasks
+- Mark tasks as completed
+- Logout
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+How to Run
+1. npm install
+2. npm start
+3. Open http://localhost:3000
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This project meets all requirements of the Absolute App Labs assignment.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+How to Test the Application
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1:Login as Admin
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2:Create tasks and assign them to users
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3:Drag tasks and drop them onto different users
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4:Observe popup alerts on assignment and reassignment
 
-## Learn More
+5:Logout and login as a User
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+6:View assigned tasks
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+7:Mark tasks as completed
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+8:Refresh the page to confirm data persistence
